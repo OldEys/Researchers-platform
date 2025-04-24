@@ -1,0 +1,14 @@
+*.exe
+*.dll
+*.xml
+*.json
+*.pyd
+*.TAG
+*.cfg
+*.env
+
+*.pdf
+*.jpg
+*.png
+*.mp4
+*.webp
