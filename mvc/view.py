@@ -1135,7 +1135,7 @@ class SettingsView(ctk.CTkFrame):
             row = ctk.CTkFrame(form_frame)
             row.pack(fill="x", pady=10)
 
-            label = ctk.CTkLabel(row, text=f"{field.replace("_"," ").capitalize()}:", width=100, anchor="w")
+            label = ctk.CTkLabel(row, text=f'{field.replace("_"," ").capitalize()}:', width=100, anchor="w")
             label.pack(side="left", padx=(10, 10))
 
             if field == "biography":
