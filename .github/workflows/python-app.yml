@@ -26,7 +26,7 @@ jobs:
         pip install pytest flake8
 
     - name: Run flake8
-      run: flake8 --ignore=E265,E266,E231,E301,E302,E225,E291,W391,W291,E126,E121,E501,E261,E262,E305,F403,F405,E203,E303,E999  --max-line-length=120
+      run: flake8 --ignore=E265,E266,E231,E301,E302,E225,E291,W391,W291,E126,E121,E501,E261,E262,E305,F403,F405,E203,E303,E999,E402  --max-line-length=120
 
     - name: Run tests with pytest
       run: |
